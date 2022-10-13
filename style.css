@@ -1,0 +1,53 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+}
+
+.container{
+    background-color: aquamarine;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: auto;
+}
+.wrap1{
+    background-color:red;
+}
+.wrap2{
+    background-color: orange;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    width: 100%;
+
+    
+
+}
+
+#gridArea{
+    /*background-color: blue;*/
+
+    height:60vh;
+    width: 60vh;
+
+    display:grid;
+    grid-template-columns: repeat(16,1fr);
+    
+    
+}
+
+h1 {
+    background-color: lightblue;
+    text-align: center;
+}
+.box{
+    border: 10px green solid;
+    margin:10px;
+    
+}
